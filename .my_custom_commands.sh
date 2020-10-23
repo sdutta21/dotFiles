@@ -50,6 +50,10 @@ function updatemepls() {
   cd Documents/Formula/OEM_Preferred_Parts
   sudo git pull upstream main
   cd ~
+  
+  cd Documents/Hiro/hiro
+  sudo git pull upstream main
+  cd ~
 }
 
 

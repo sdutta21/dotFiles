@@ -32,6 +32,7 @@ function updatemepls() {
   printf "\n${bold}Good ol apt :)))) !${cl}\n"
   sudo apt-get update
   sudo apt-get install
+  sudo apt autoremove
   
   printf "\n${bold}Updating Git Hub Repos :)))) !${cl}\n"
   
@@ -51,13 +52,14 @@ function updatemepls() {
   sudo git pull upstream main
   cd ~
   
-  cd Documents/Hiro/hiro
-  sudo git pull upstream main
+  cd Documents/Projects/dotFiles
+  sudo git pull 
   cd ~
   
-  cd Documents/Projects/dotFiles
-  sudo git pull
+  cd Documents/Hiro/hiro
+  sudo git pull upstream master
   cd ~
+  
 }
 
 

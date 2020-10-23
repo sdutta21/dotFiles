@@ -54,6 +54,10 @@ function updatemepls() {
   cd Documents/Hiro/hiro
   sudo git pull upstream main
   cd ~
+  
+  cd Documents/Projects/dotFiles
+  sudo git pull
+  cd ~
 }
 
 

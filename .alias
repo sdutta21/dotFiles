@@ -1,0 +1,12 @@
+# Alias 
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias vpn="nohup /usr/local/pulse/pulseUi &"
+alias helpkill="ps aux | grep -i apt"
+alias weather="curl http://v2.wttr.in/"
+
+
+
+
+

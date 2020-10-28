@@ -29,12 +29,13 @@ function confirm_and_run() {
 
 function updatemepls() {
 
-  printf "\n${bold}Good ol apt :)))) !${cl}\n"
+  printf "\n${bold}Good ol apt :) ${cl}\n"
   sudo apt-get update
   sudo apt-get install
   sudo apt autoremove
+  sudo apt-get upgrade
   
-  printf "\n${bold}Updating Git Hub Repos :)))) !${cl}\n"
+  printf "\n${bold}Updating Git Hub Repos :) ${cl}\n"
   
   cd Documents/Formula/AdvancedResearch
   sudo git pull upstream main
